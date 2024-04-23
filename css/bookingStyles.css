@@ -1,0 +1,120 @@
+﻿@import url('root.css');
+
+* {
+    font-family: var(--font-family);
+}
+
+.top-header {
+    width: 100%;
+    display: flex;
+    padding: 0 10px;
+    justify-content: space-between;
+    border-bottom: 1px solid darkgrey;
+    background-color: rgb(255, 255, 255);
+}
+
+
+    .top-header img {
+        width: 70px;
+        height: 20px;
+        margin-top: 15px;
+    }
+
+    .top-header ul {
+        margin-top: 10px;
+        list-style: none;
+        display: flex;
+    }
+
+    .top-header a {
+        color: black;
+        text-decoration: none;
+    }
+
+    .top-header li:not(:last-child) {
+        margin-right: 20px;
+    }
+
+.bottom-header {
+    width: 100%;
+    border-bottom: 1px solid #a9a9a9;
+    background-color: rgb(173,158,135);
+}
+
+    .bottom-header ul {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .bottom-header li:not(:last-child) {
+        margin-right: 60px;
+    }
+
+    .bottom-header li {
+        margin-top: 10px;
+    }
+
+    .bottom-header a {
+        color: white;
+        text-decoration: none;
+        text-transform: capitalize;
+        font-size: 18px;
+    }
+
+/* */
+
+#total_money {
+    padding: 10px 0;
+    float: right;
+}
+
+/* */
+
+.footer-text.container span {
+    display: inline-block; /* Display each span as a block element */
+    text-align: left; /* Align text to the left within each span */
+    max-width: 100%; /* Ensure each span takes up the full width of its parent */
+    margin-bottom: 10px;
+    font-size: 10px;
+}
+
+.footer-img {
+    background-color: rgb(85,85,85);
+}
+
+    .footer-img ul {
+        list-style: none;
+    }
+
+.container-img {
+    display: flex;
+}
+
+.footer-img .container-img > ul:nth-child(2) img {
+    width: 50%;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: rgb(17,17,17);
+    color: white;
+}
+
+.footer-container {
+    display: flex;
+    list-style: none;
+    padding: 50px;
+    font-size: 13px;
+}
+
+    .footer-container ul {
+        list-style: none;
+        text-decoration: none;
+    }
+
+    .footer-container a {
+        color: grey
+    }

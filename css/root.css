@@ -1,0 +1,9 @@
+﻿/* root.css */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Malgun+Gothic:wght@400;600&display=swap');
+
+:root {
+    --font-family: "Open Sans", "Noto Sans", "Noto Sans KR", "Malgun Gothic", sans-serif;
+}

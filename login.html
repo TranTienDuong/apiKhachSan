@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/loginStyles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <title>Đăng nhập</title>
+</head>
+<body>
+     <div id="header"></div>
+    <div class="container-fluid">
+        <p style="margin-bottom: 80px; margin-left: 200px; margin-top: 50px;"><span><a href="index.html">Trang chù</a></span> / Đăng nhập</p>
+        <div class="container">
+            <h2 style="text-align: center;" class="mb-4">Đăng nhập cho quản trị viên</h2>
+            <hr>
+            <form>
+                <div class="loginContainer row mx-auto mt-4 mb-4">
+                    <div class="col-8 form-group">
+                        <input class="form-control mb-2" type="text" placeholder="Vui lòng nhập tên đăng nhập của bạn">
+                        <input class="form-control" type="text" placeholder="Vui lòng nhập mất khẩu của bạn">
+                    </div>
+                    <div class="col-4">
+                        <button type="submit" class="btn form-control">Đăng nhập</button>
+                    </div>
+                </div>
+            </form>
+            <div class="loginFunction mb-5">
+                    <a href="#">Quên mật khẩu</a>
+                    <a href="#">Đăng kí</a>
+            </div>
+            <div class="login-via">
+                <h3 class="mb-4">Hoặc đăng nhập bằng</h3>
+                <fb:login-button scope="public_profile,email" onlogin="checkLoginState();" class="btn">
+                </fb:login-button>
+            </div>
+         </div>
+    </div> 
+    <div id="footer"></div>
+    <script src="scripts/loginScripts.js"></script>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+</body>
+</html>
