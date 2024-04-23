@@ -1,0 +1,140 @@
+
+.upper-btn-box{
+    width: 100%;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+.upper-btn-box i{
+    font-size: 25px;
+    color: gold;
+}
+.upper-btn-box input{
+    width: 40%;
+    background-color: transparent;
+    font-size: 20px;
+    font-family: Verdana;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid gold;
+    margin-right: 20px;
+}
+.upper-btn-box button{
+    width: 10%;
+    border: none;
+    outline: none;
+    background-color: aqua;
+    font-size: 20px;
+    font-family: Verdana;
+    color: #fff;
+    padding: 5px ;
+    border-radius: 5px;
+}
+.modal-hint{
+    width: 50%;
+    height: 450px;
+    background-color: #f2f2f2; 
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 323px;
+    justify-content: space-evenly; 
+}
+
+.modal-hint .input-box{
+    width: 100%; 
+    margin: 5px; 
+    display: flex;
+    justify-content: space-evenly;
+}
+.modal-hint .input-box label{
+    width: 30%;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-left: 30px;
+    padding-top: 25px;
+}
+.modal-hint .input-box input{
+    width: 70%;
+    font-size: 20px;
+    margin: 10px 5px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 3px solid #4286f5;
+    margin-right: 30px;
+}
+.modal-hint .input-box select{
+    width: 70%;
+    font-size: 20px;
+    margin: 10px 5px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 3px solid #4286f5;
+    margin-right: 30px;
+}
+.modal-hint .input-box select{
+    width: 70%;
+    font-size: 20px;
+    margin: 10px 5px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 3px solid #4286f5;
+    margin-right: 30px;
+}
+
+.modal-btn{
+    width: 100%;
+    padding: 35px;
+    display: flex;
+    justify-content: center;
+}
+.modal-btn button{
+    width: 20%;
+    border: none;
+    outline: none;
+    background-color: aqua;
+    font-size: 20px;
+    font-family: Verdana;
+    color: #fff;
+    margin: 0px 10px;
+    border-radius: 5px;
+}
+.modal-btn button:disabled{
+    filter: grayscale(80%);
+}
+.table-box{
+    width: 100%;
+    padding: 30px;
+}
+.table-box table{
+    width: 100%;
+    border: none ;
+}
+.table-box table thead tr th{
+    text-align: center;
+    font-family: Verdana;
+    font-family: 20px;
+    background-color: rgb(189, 57, 255);
+}
+.table-box table tbody tr td {
+    text-align: center;
+    font-family: Verdana;
+    padding: 10px 0 5px;
+    background-color: #fff;
+}
+.table-box table tbody tr td button{
+    width: 40%;
+    border: none;
+    outline: none;
+    background-color: aqua;
+    font-size: 20px;
+    font-family: Verdana;
+    color: #fff;
+    padding: 5px 0px 5px;
+    border-radius: 5px;
+}
+
